@@ -1,0 +1,10 @@
+{
+  "/trade/page": "app/trade/page.js",
+  "/history/page": "app/history/page.js",
+  "/api/chart/route": "app/api/chart/route.js",
+  "/api/portfolio/route": "app/api/portfolio/route.js",
+  "/api/portfolio-snapshots/route": "app/api/portfolio-snapshots/route.js",
+  "/portfolio/page": "app/portfolio/page.js",
+  "/api/twelve/route": "app/api/twelve/route.js",
+  "/api/achievements/route": "app/api/achievements/route.js"
+}

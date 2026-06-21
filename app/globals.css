@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #__next {
+  min-height: 100%;
+}
+
+body {
+  @apply bg-slate-950 text-slate-100 antialiased;
+  background-image: radial-gradient(circle at 15% 10%, rgba(0,212,255,0.18), transparent 18%),
+    radial-gradient(circle at 85% 15%, rgba(0,255,157,0.12), transparent 20%),
+    radial-gradient(circle at 50% 90%, rgba(255,94,122,0.08), transparent 15%);
+  background-color: #020617;
+}
+
+.container {
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+.glass-card {
+  @apply rounded-[2rem] border border-white/10 bg-slate-950/60 shadow-[0_40px_80px_-40px_rgba(0,0,0,0.75)] backdrop-blur-xl;
+}
+
+.glass-panel {
+  @apply rounded-[1.75rem] border border-slate-600/30 bg-slate-900/75 shadow-[0_20px_80px_-40px_rgba(0,212,255,0.35)] backdrop-blur-xl;
+}
+
+.glow-cyan {
+  box-shadow: 0 0 0 1px rgba(0,212,255,0.15), 0 20px 80px -40px rgba(0,212,255,0.35);
+}
+
+.glow-cyan {
+  box-shadow: 0 0 0 1px rgba(0,212,255,0.15), 0 20px 80px -40px rgba(0,212,255,0.4);
+}
+
+.glow-accent {
+  box-shadow: 0 0 30px -10px rgba(0,212,255,0.25);
+}
